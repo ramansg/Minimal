@@ -1,0 +1,11 @@
+{
+  "id": "Minimal",
+  "title": "Minimal",
+  "description": "A brief description of your theme and what makes it unique.",
+  "creators": ["your-github-username"],
+  "minVersion": "2.0.0.0",
+  "hasShaders": false,
+  "version": "1.4.3",
+  "tags": ["minimal"],
+  "images": ["1.png", "2.png"]
+}
