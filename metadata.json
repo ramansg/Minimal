@@ -1,8 +1,8 @@
 {
   "id": "Minimal",
   "title": "Minimal",
-  "description": "A brief description of your theme and what makes it unique.",
-  "creators": ["your-github-username"],
+  "description": "A simple Minimal Theme, without all the heavy animations including karaoke swipe. Very light-weight, optimized to use minimal resources.",
+  "creators": ["semicolonhope"],
   "minVersion": "2.0.0.0",
   "hasShaders": false,
   "version": "1.4.3",
