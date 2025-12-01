@@ -1,7 +1,7 @@
 {
-  "id": "Minimal",
+  "id": "minimal",
   "title": "Minimal",
-  "description": "A simple Minimal Theme, without all the heavy animations including karaoke swipe. Very light-weight, optimized to use minimal resources.",
+  "description": "A simple Minimal Theme, without all the heavy animations including karaoke swipe. Very light-weight, optimized to use minimal resources for portrait view.",
   "creators": ["semicolonhope"],
   "minVersion": "2.0.0.0",
   "hasShaders": false,
