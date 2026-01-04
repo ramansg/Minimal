@@ -1,0 +1,30 @@
+name: Periodic History Wipe
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+  workflow_dispatch: # Allows you to run it manually with a button
+
+jobs:
+  wipe-history:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reset History
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Create orphan branch
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m "Auto-reset repository history"
+          
+          # Force push to main
+          git push origin temp_branch:main --force
