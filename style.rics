@@ -39,7 +39,7 @@
 /* ## SECTION-3 - EASY CHANGE SETTINGS ############ */
 
 /* -- Karaoke Mode Toggle -- */
-$karaoke-mode: minimal; /* off / minimal / default */
+$karaoke-mode: off; /* off / minimal / default */
 
 /* - off     = No karaoke - Only Line by line sync    *
  * - minimal = Minimal theme styled lyrics and karaoke*
