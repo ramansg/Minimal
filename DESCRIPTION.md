@@ -1,6 +1,8 @@
-> Note: the following details are slightly outdated.
+> Note:
 > - v1.9.1 introduces a simple on/off system for both blur and karaoke
 > - Go to Themes, then create, then scroll down to section-3 to turn on blur or karaoke.
+>
+> - the following details are slightly outdated. The following text will be updated soon.
 
 # Better Lyrics – Minimal Immersive Theme (v1.8.1)
 
