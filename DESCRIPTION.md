@@ -1,3 +1,7 @@
+> Note: the following details are slightly outdated.
+> v1.9.1 introduces a simple on/off system for both blur and karaoke
+> Go to Themes, then create, then scroll down to section-3 to turn on blur or karaoke.
+
 # Better Lyrics – Minimal Immersive Theme (v1.8.1)
 
 A clean, performance-focused theme for the **Better Lyrics** extension on **YouTube Music**. Removes most lyric swipe/word animations in favor of a smooth, opacity-based focus system, paired with a calm, blurred album-art background.
